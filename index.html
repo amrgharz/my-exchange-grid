@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my exchange</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div class="nav">nav
+            <button class="register">Register</button>
+            <button class="log_in">Log In</button>
+        </div>
+        <div class="news">news</div>
+        <div class="referral">referral</div>
+        <div class="top_volume">volume</div>
+        <div class="give_away">give_away</div>
+        <div class="dashboard">dashboard</div>
+        <div class="chart">chart
+                <div class="btcwdgt-chart"></div>
+        </div>
+        <div class="buy_orders">buy_orders</div>
+        <div class="sell_orders">sell orders</div>
+        <div class="footer">footer</div>
+    </div> 
+    <script>
+            (function(b,i,t,C,O,I,N) {
+              window.addEventListener('load',function() {
+                if(b.getElementById(C))return;
+                I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+                I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+              },false)
+            })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+          </script>   
+</body>
+</html>
